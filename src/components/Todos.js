@@ -22,7 +22,7 @@ export const Todos = () => {
             <div className="row">
                 <div className="col">
                     <h1>Fetched List</h1>
-                    <FetchedList posts={[]}/>
+                    <FetchedList/>
                 </div>
             </div>
         </div>
