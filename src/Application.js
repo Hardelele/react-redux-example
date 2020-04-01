@@ -5,6 +5,7 @@ import {BrowserRouter, Switch, Route} from "react-router-dom";
 import {Registration} from "./components/Registration";
 import {Auth} from "./components/Auth";
 import {Header} from "./components/Header";
+import {Todos} from "./components/Todos";
 
 function Application() {
   return (
@@ -14,6 +15,7 @@ function Application() {
             <Switch>
                 <Route path="/register" exact component={Registration}/>
                 <Route path="/auth" component={Auth}/>
+                <Route path="/todos" component={Todos}/>
             </Switch>
         </div>
       </BrowserRouter>
