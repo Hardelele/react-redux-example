@@ -1,1 +1,4 @@
 export const CREATE_POST = 'POST/CREATE_POST';
+export const FETCHED_POSTS = 'POST/FETCHED_POSTS';
+export const SHOW_LOADER = 'APP/SHOW_LOADER';
+export const HIGH_LOADER = 'APP/HIGH_LOADER';
