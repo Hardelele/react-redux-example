@@ -10,6 +10,14 @@ export default class PostForm extends Component {
 
     submitHandler = event => {
         event.preventDefault()
+
+        const {title} = this.state;
+
+        const newPost = {
+            title, id: Date.now().toString()
+        }
+
+        this.setState({title:''})
     };
 
     changeInputHandler = event => {
