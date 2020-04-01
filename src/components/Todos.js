@@ -16,7 +16,7 @@ export const Todos = () => {
             <div className="row">
                 <div className="col">
                     <h1>Post List</h1>
-                    <PostList posts={[1, 2, 3]}/>
+                    <PostList/>
                 </div>
             </div>
             <div className="row">
